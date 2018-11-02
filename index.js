@@ -17,11 +17,11 @@ function appendKitten(name) {
   return kittens.concat(name)
 }
 function prependKitten(name) {
-  return
+  return array.concat(kittens)
 }
-function removeLastKitten(name) {
+function removeLastKitten() {
   return kittens.slice(-1)
 }
-function removeFirstKitten(name) {
+function removeFirstKitten() {
   return kittens.slice(1)
 }
